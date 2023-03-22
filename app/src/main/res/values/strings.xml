@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Customised Charts</string>
+    <string name="bar_chart">Bar Chart</string>
+    <string name="line_chart">Line Chart</string>
+    <string name="combined_chart">Combined Chart</string>
+    <string name="company_a">Company A</string>
+    <string name="company_b">Company B</string>
+    <string name="company_c">Company C</string>
+    <string name="company_d">Company D</string>
+    <string name="week_data">Week Data</string>
+    <string name="year_data">Year Data</string>
+    <string name="month_data">Month Data</string>
+</resources>

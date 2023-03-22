@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.CustomisedChartsWithTooltip" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/sky_blue</item>
+        <item name="colorPrimaryVariant">@color/sky_blue</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/navy_blue</item>
+        <item name="colorSecondaryVariant">@color/navy_blue</item>
+        <item name="colorOnSecondary">@color/navy_blue</item><!-- Status bar color. -->
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

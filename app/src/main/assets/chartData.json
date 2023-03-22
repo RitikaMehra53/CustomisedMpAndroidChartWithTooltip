@@ -1,0 +1,215 @@
+{
+  "weekly": [
+    {
+      "day_Number": 1,
+      "day_Name": "S",
+      "companyA": 626607.5400000002,
+      "companyB": 750585.4700000002,
+      "companyC": 566736.32999999999,
+      "companyD": 499654,
+      "year": 2023
+    },
+    {
+      "day_Number": 2,
+      "day_Name": "M",
+      "companyA": 541785.7999999998,
+      "companyB": 666585.2899999998,
+      "companyC": 478287.97999999994,
+      "companyD": 672391,
+      "year": 2023
+    },
+    {
+      "day_Number": 3,
+      "day_Name": "T",
+      "companyA": 673245.0500000002,
+      "companyB": 817170.8599999999,
+      "companyC": 987168.43999999999,
+      "companyD": 32225,
+      "year": 2023
+    },
+    {
+      "day_Number": 4,
+      "day_Name": "W",
+      "companyA": 612149.68,
+      "companyB": 729785.7899999998,
+      "companyC": 370914.22,
+      "companyD": 92435,
+      "year": 2023
+    },
+    {
+      "day_Number": 5,
+      "day_Name": "T",
+      "companyA": 182278.15,
+      "companyB": 170487.05000000005,
+      "companyC": 218836.46,
+      "companyD": 837277.56,
+      "year": 2023
+    },
+    {
+      "day_Number": 6,
+      "day_Name": "F",
+      "companyA": 626607.5400000002,
+      "companyB": 750585.4700000002,
+      "companyC": 866736.32999999999,
+      "companyD": 514654,
+      "year": 2023
+    },
+    {
+      "day_Number": 7,
+      "day_Name": "S",
+      "companyA": 541785.7999999998,
+      "companyB": 666585.2899999998,
+      "companyC": 778287.97999999994,
+      "companyD": 412391,
+      "year": 2023
+    }
+  ],
+  "monthly": [
+    {
+      "day_Number": 1,
+      "day_Name": "Week",
+      "companyA": 926607.5400000002,
+      "companyB": 1050585.4700000002,
+      "companyC": 196736.32999999999,
+      "companyD": 227654,
+      "year": 0
+    },
+    {
+      "day_Number": 2,
+      "day_Name": "Week",
+      "companyA": 841785.7999999998,
+      "companyB": 966585.2899999998,
+      "companyC": 108287.97999999994,
+      "companyD": 345391,
+      "year": 0
+    },
+    {
+      "day_Number": 3,
+      "day_Name": "Week",
+      "companyA": 973245.0500000002,
+      "companyB": 1117170.8599999999,
+      "companyC": 317168.43999999999,
+      "companyD": 567825,
+      "year": 0
+    },
+    {
+      "day_Number": 4,
+      "day_Name": "Week",
+      "companyA": 912149.68,
+      "companyB": 1029785.7899999998,
+      "companyC": 300914.22,
+      "companyD": 925435,
+      "year": 0
+    }
+  ],
+  "yearly": [
+    {
+      "day_Number": 1,
+      "day_Name": "Jan",
+      "companyA": 626607.5400000002,
+      "companyB": 750585.4700000002,
+      "companyC": 466736.32999999999,
+      "companyD": 664654,
+      "year": 2023
+    },
+    {
+      "day_Number": 2,
+      "day_Name": "Feb",
+      "companyA": 541785.7999999998,
+      "companyB": 666585.2899999998,
+      "companyC": 678287.97999999994,
+      "companyD": 882391,
+      "year": 2023
+    },
+    {
+      "day_Number": 3,
+      "day_Name": "Mar",
+      "companyA": 673245.0500000002,
+      "companyB": 817170.8599999999,
+      "companyC": 387168.43999999999,
+      "companyD": 676225,
+      "year": 2023
+    },
+    {
+      "day_Number": 4,
+      "day_Name": "Apr",
+      "companyA": 612149.68,
+      "companyB": 729785.7899999998,
+      "companyC": 670914.22,
+      "companyD": 992435,
+      "year": 2023
+    },
+    {
+      "day_Number": 5,
+      "day_Name": "May",
+      "companyA": 182278.15,
+      "companyB": 170487.05000000005,
+      "companyC": 218836.46,
+      "companyD": 137277.56,
+      "year": 2023
+    },
+    {
+      "day_Number": 6,
+      "day_Name": "Jun",
+      "companyA": 626607.5400000002,
+      "companyB": 750585.4700000002,
+      "companyC": 266736.32999999999,
+      "companyD": 754654,
+      "year": 2023
+    },
+    {
+      "day_Number": 7,
+      "day_Name": "Jul",
+      "companyA": 541785.7999999998,
+      "companyB": 366585.2899999998,
+      "companyC": 378287.97999999994,
+      "companyD": 162391,
+      "year": 2023
+    },
+    {
+      "day_Number": 8,
+      "day_Name": "Aug",
+      "companyA": 673245.0500000002,
+      "companyB": 817170.8599999999,
+      "companyC": 187168.43999999999,
+      "companyD": 997225,
+      "year": 2023
+    },
+    {
+      "day_Number": 9,
+      "day_Name": "Sep",
+      "companyA": 612149.68,
+      "companyB": 729785.7899999998,
+      "companyC": 970914.22,
+      "companyD": 542435,
+      "year": 2023
+    },
+    {
+      "day_Number": 10,
+      "day_Name": "Oct",
+      "companyA": 182278.15,
+      "companyB": 170487.05000000005,
+      "companyC": 818836.46,
+      "companyD": 337277.56,
+      "year": 2023
+    },
+    {
+      "day_Number": 11,
+      "day_Name": "Nov",
+      "companyA": 626607.5400000002,
+      "companyB": 750585.4700000002,
+      "companyC": 966736.32999999999,
+      "companyD": 164654,
+      "year": 2023
+    },
+    {
+      "day_Number": 12,
+      "day_Name": "Dec",
+      "companyA": 541785.7999999998,
+      "companyB": 566585.2899999998,
+      "companyC": 78287.97999999994,
+      "companyD": 992391,
+      "year": 2023
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="navy_blue">#343D56</color>
+    <color name="sky_blue">#0ACADC</color>
+    <color name="divider_color">#EBECEF</color>
+    <color name="view_all_bg">#F3F6F9</color>
+    <color name="text_color">#031926</color>
+    <color name="light_grey">#AFB2BC</color>
+    <color name="dark_grey">#858B9C</color>
+    <color name="purple_color">#9267B4</color>
+    <color name="indicator_color">#e7fafb</color>
+    <color name="gradient_start_color">#0ACADC</color>
+    <color name="gradient_end_color">#AC93F3</color>
+    <color name="et_color">#363F57</color>
+    <color name="black">#000000</color>
+    <color name="green">#04899D</color>
+    <color name="purple">#9267B4</color>
+    <color name="app_color_transparent">#1A0ACADC</color>
+    <color name="splash_color_transparent">#1A343D56</color>
+    <color name="green_transparent">#1A04899D</color>
+    <color name="purple_transparent">#1A9267B4</color>
+    <color name="pink">#FF7596</color>
+    <color name="orange">#FABB87</color>
+    <color name="dark_blue">#1477F8</color>
+    <color name="transparent_pink">#26FF7597</color>
+    <color name="pink_transparent">#33FF7596</color>
+</resources>

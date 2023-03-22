@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.CombinedChartActivity"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/header"
+        layout="@layout/header_layout" />
+
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/header"
+        android:orientation="horizontal"
+        android:padding="@dimen/_20dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent">
+        <RadioButton
+            android:id="@+id/rb_week"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/week_data"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:drawableLeft="@drawable/radio_color_selector"
+            android:drawablePadding="@dimen/_6dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_12sp"/>
+        <RadioButton
+            android:id="@+id/rb_month"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/month_data"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:drawableLeft="@drawable/radio_color_selector"
+            android:drawablePadding="@dimen/_6dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_12sp"
+            android:layout_marginLeft="@dimen/_16dp"/>
+
+        <RadioButton
+            android:id="@+id/rb_year"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/year_data"
+            android:background="@android:color/transparent"
+            android:button="@null"
+            android:drawableLeft="@drawable/radio_color_selector"
+            android:drawablePadding="@dimen/_6dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_12sp"
+            android:layout_marginLeft="@dimen/_16dp"/>
+    </RadioGroup>
+
+    <View
+        android:id="@+id/divider_radio"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1dp"
+        android:background="@color/divider_color"
+        app:layout_constraintTop_toBottomOf="@id/radioGroup"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/cl_data"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/divider_radio"
+        android:paddingTop="@dimen/_20dp"
+        android:paddingBottom="@dimen/_24dp">
+
+        <ImageView
+            android:id="@+id/iv_company_a"
+            android:layout_width="@dimen/_8dp"
+            android:layout_height="@dimen/_8dp"
+            android:layout_marginLeft="@dimen/_24dp"
+            android:src="@drawable/ic_eclipse_common"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_company_a"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_company_a"
+            app:tint="@color/sky_blue" />
+
+        <TextView
+            android:id="@+id/tv_company_a"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_16dp"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:text="@string/company_a"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_12sp"
+            app:layout_constraintLeft_toRightOf="@+id/iv_company_a"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_company_a_value"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_4dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:text="$4.12M"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintLeft_toLeftOf="@id/tv_company_a"
+            app:layout_constraintRight_toRightOf="@id/tv_company_a"
+            app:layout_constraintTop_toBottomOf="@id/tv_company_a" />
+
+        <ImageView
+            android:id="@+id/iv_company_b"
+            android:layout_width="@dimen/_8dp"
+            android:layout_height="@dimen/_8dp"
+            android:layout_marginLeft="@dimen/_60dp"
+            android:src="@drawable/ic_eclipse_common"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_company_b"
+            app:layout_constraintLeft_toRightOf="@+id/tv_company_a"
+            app:layout_constraintTop_toTopOf="@+id/tv_company_b"
+            app:tint="@color/purple"/>
+
+        <TextView
+            android:id="@+id/tv_company_b"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_16dp"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:text="@string/company_b"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_12sp"
+            app:layout_constraintLeft_toRightOf="@+id/iv_company_b"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_company_b_value"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_4dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:text="$5.07M"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintLeft_toLeftOf="@id/tv_company_b"
+            app:layout_constraintRight_toRightOf="@id/tv_company_b"
+            app:layout_constraintTop_toBottomOf="@id/tv_company_b" />
+
+
+
+        <ImageView
+            android:id="@+id/iv_company_c"
+            android:layout_width="@dimen/_8dp"
+            android:layout_height="@dimen/_8dp"
+            android:layout_marginLeft="@dimen/_24dp"
+            android:src="@drawable/ic_eclipse_common"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_company_c"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_company_c"
+            app:tint="@color/pink" />
+
+        <TextView
+            android:id="@+id/tv_company_c"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_16dp"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:text="@string/company_c"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_12sp"
+            app:layout_constraintLeft_toRightOf="@+id/iv_company_a"
+            app:layout_constraintTop_toBottomOf="@id/tv_company_a_value"
+            android:layout_marginTop="@dimen/_27dp"/>
+
+        <TextView
+            android:id="@+id/tv_company_c_value"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_4dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:text="$4.12M"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintLeft_toLeftOf="@id/tv_company_c"
+            app:layout_constraintRight_toRightOf="@id/tv_company_c"
+            app:layout_constraintTop_toBottomOf="@id/tv_company_c" />
+
+        <ImageView
+            android:id="@+id/iv_company_d"
+            android:layout_width="@dimen/_8dp"
+            android:layout_height="@dimen/_8dp"
+            android:src="@drawable/ic_eclipse_common"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_company_d"
+            app:layout_constraintLeft_toLeftOf="@+id/iv_company_b"
+            app:layout_constraintTop_toTopOf="@+id/tv_company_d"
+            app:tint="@color/orange"/>
+
+        <TextView
+            android:id="@+id/tv_company_d"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_16dp"
+            android:layout_marginLeft="@dimen/_8dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:text="@string/company_d"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_12sp"
+            app:layout_constraintLeft_toRightOf="@+id/iv_company_d"
+            app:layout_constraintTop_toBottomOf="@+id/tv_company_b_value"
+            android:layout_marginTop="@dimen/_27dp"/>
+
+        <TextView
+            android:id="@+id/tv_company_d_value"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_20dp"
+            android:layout_marginTop="@dimen/_4dp"
+            android:fontFamily="@font/eina_02_semi_bold"
+            android:text="$5.07M"
+            android:textColor="@color/text_color"
+            android:textSize="@dimen/_16sp"
+            app:layout_constraintLeft_toLeftOf="@id/tv_company_d"
+            app:layout_constraintRight_toRightOf="@id/tv_company_d"
+            app:layout_constraintTop_toBottomOf="@id/tv_company_d" />
+
+
+        <com.github.mikephil.charting.charts.CombinedChart
+            android:id="@+id/chart"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/_24dp"
+            android:layout_marginRight="@dimen/_18dp"
+            android:layout_marginBottom="@dimen/_30dp"
+            android:accessibilityHeading="false"
+            android:background="@android:color/transparent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_company_d_value" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
