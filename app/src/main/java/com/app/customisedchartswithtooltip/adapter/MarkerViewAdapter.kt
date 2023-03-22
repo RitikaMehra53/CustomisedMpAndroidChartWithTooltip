@@ -1,4 +1,4 @@
-package com.app.customisedchartswithtooltip
+package com.app.customisedchartswithtooltip.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater

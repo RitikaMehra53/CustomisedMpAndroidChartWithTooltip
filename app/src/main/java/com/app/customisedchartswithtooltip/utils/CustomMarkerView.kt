@@ -8,7 +8,7 @@ import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.app.customisedchartswithtooltip.MarkerViewAdapter
+import com.app.customisedchartswithtooltip.adapter.MarkerViewAdapter
 import com.app.customisedchartswithtooltip.R
 import com.app.customisedchartswithtooltip.models.ChartHoverModel
 import com.github.mikephil.charting.components.IMarker
